@@ -25,5 +25,5 @@ ENV C_INCLUDE_PATH /usr/local/include
 ENV LD_LIBRARY_PATH /usr/local/lib
 RUN /home/main/anaconda2/envs/python3/bin/pip install https://github.com/bradfordboyle/pyglpk/zipball/master
 
-# Install GMPL Notebook
+# Install GMPL Magic
 RUN /home/main/anaconda2/envs/python3/bin/pip install gmplmagic
