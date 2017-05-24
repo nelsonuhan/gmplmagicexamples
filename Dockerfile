@@ -26,4 +26,4 @@ ENV LD_LIBRARY_PATH /usr/local/lib
 RUN /home/main/anaconda2/envs/python3/bin/pip install https://github.com/bradfordboyle/pyglpk/zipball/master
 
 # Install GMPL Magic
-RUN /home/main/anaconda2/envs/python3/bin/pip install gmplmagic
+RUN /home/main/anaconda2/envs/python3/bin/pip install https://github.com/nelsonuhan/gmplmagic/zipball/master 
